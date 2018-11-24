@@ -458,8 +458,7 @@ wifi_error init_wifi_vendor_hal_func_table(wifi_hal_fn *fn) {
     fn->wifi_set_radio_mode_change_handler = wifi_set_radio_mode_change_handler;
     /* Customers will uncomment when they want to set qpower*/
     //fn->wifi_set_qpower = wifi_set_qpower;
-    fn->wifi_add_or_remove_virtual_intf = wifi_add_or_remove_virtual_intf;
-
+    
     return WIFI_SUCCESS;
 }
 
